@@ -91,6 +91,11 @@
 #ifndef Z_STOP_PIN
   #define Z_STOP_PIN                        PA7
 #endif
+#ifndef I_STOP_PIN
+  #define I_STOP_PIN                        PC4
+#endif
+
+
 
 #ifndef Z_MIN_PROBE_PIN
   #define Z_MIN_PROBE_PIN                   PB1   // BLTouch IN
@@ -137,19 +142,19 @@
 #endif
 #define Z_ENABLE_PIN                X_ENABLE_PIN
 
-#ifndef E0_STEP_PIN
-  #define E0_STEP_PIN                       PB4
+#ifndef I_STEP_PIN
+  #define I_STEP_PIN                       PB4
 #endif
-#ifndef E0_DIR_PIN
-  #define E0_DIR_PIN                        PB3
+#ifndef I_DIR_PIN
+  #define I_DIR_PIN                        PB3
 #endif
-#define E0_ENABLE_PIN               X_ENABLE_PIN
+#define I_ENABLE_PIN               X_ENABLE_PIN
 
 //
 // Temperature Sensors
 //
 #define TEMP_0_PIN                          PC5   // TH1
-#define TEMP_BED_PIN                        PC4   // TB1
+#define TEMP_BED_PIN                        PC5   // TB1
 
 //
 // Heaters / Fans

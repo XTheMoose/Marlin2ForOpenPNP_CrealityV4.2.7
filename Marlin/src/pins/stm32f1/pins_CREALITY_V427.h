@@ -40,7 +40,7 @@
 #define Z_STEP_PIN                          PB5
 #define Z_DIR_PIN                           PB6
 
-#define E0_STEP_PIN                         PB3
-#define E0_DIR_PIN                          PB4
+#define I_STEP_PIN                         PB3
+#define I_DIR_PIN                          PB4
 
 #include "pins_CREALITY_V4.h"
