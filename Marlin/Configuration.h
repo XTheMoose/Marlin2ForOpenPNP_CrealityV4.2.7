@@ -1292,7 +1292,7 @@
  * Override with M92 (when enabled below)
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.20, 80.20, 400.00, 390.0 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.20, 80.20, 400.00, 0.56 }
 
 /**
  * Enable support for M92. Disable to save at least ~530 bytes of flash.
@@ -2342,7 +2342,7 @@
 #define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
-  #define Z_SAFE_HOMING_X_POINT X_CENTER  // (mm) X point for Z homing
+  #define Z_SAFE_HOMING_X_POINT 0 // (mm) X point for Z homing
   #define Z_SAFE_HOMING_Y_POINT Y_CENTER  // (mm) Y point for Z homing
   //#define Z_SAFE_HOMING_POINT_ABSOLUTE  // Ignore home offsets (M206) for Z homing position
 #endif
