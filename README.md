@@ -1,3 +1,10 @@
+Marlin firmware written for the CrealityV4.2.7 used with OpenPnP. This is not official Marlin firmware for OpenPnP and should only be used for reference.
+
+There are work arounds being used to configure the A-Axis for Rotation by using the E0 driver on the Creality Board. Changes have been made to the source code that involve creating "fake" limit switches on void pins, and various other safety limits have been removed.
+
+It should also be noted that I am using the BL-Touch port to actuate a servo, and the display port pins as signal pins to actuate various MOSFETs on a breakout board.
+
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
