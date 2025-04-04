@@ -4,6 +4,8 @@ There are work arounds being used to configure the A-Axis for Rotation by using 
 
 It should also be noted that I am using the BL-Touch port to actuate a servo, and the display port pins as signal pins to actuate various MOSFETs on a breakout board.
 
+Built firmware using Auto Build Marlin, using STM32F1 architecture, and STM32F103RC_creality (256K) environment
+
 
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
